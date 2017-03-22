@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YouTubeSearch</string>
+    <string name="searchFieldHint">Search in YouTube</string>
+    <string name="searchBtnText">GO !</string>
+    <string name="searchQueryExample">previous query example</string>
+    <string name="dateExample">2017-03-12</string>
+    <string name="separator">---</string>
+    <string name="clearBtnText">CLEAN DATA</string>
+    <string name="channel">Channel :</string>
+    <string name="channel_example">channel example</string>
+</resources>
