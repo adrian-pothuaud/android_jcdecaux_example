@@ -42,6 +42,6 @@
     <View
         android:layout_width="wrap_content"
         android:layout_height="4dp"
-        android:background="#303F9F"/>
+        android:background="#ff0000"/>
 
 </LinearLayout>
