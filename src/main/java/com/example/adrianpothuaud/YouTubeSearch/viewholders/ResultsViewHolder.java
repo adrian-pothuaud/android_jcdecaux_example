@@ -31,7 +31,15 @@ public class ResultsViewHolder extends RecyclerView.ViewHolder implements  LoadI
 
     public void bind(final Results.Item result) {
         title.setText(result.getSnippet().getTitle());
-        description.setText(result.getSnippet().getDescription());
+        String shortenDesc;
+        String desc = result.getSnippet().getDescription();
+        if(desc.length() >= 80) {
+            shortenDesc = desc.substring(0, 80) + "...";
+        }
+        else {
+            shortenDesc = desc;
+        }
+        description.setText(shortenDesc);
 
         new LoadImageTask(this).execute(result.getSnippet().getMediumThumbUrl());
 

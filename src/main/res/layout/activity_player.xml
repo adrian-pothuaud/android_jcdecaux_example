@@ -3,18 +3,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"/>
+
     <TextView
         android:layout_marginTop="20dp"
         android:id="@+id/playerTitle"
         android:text="Video Title"
         android:textSize="24dp"
         android:padding="10dp"
-        android:layout_margin="20dp"
-        android:background="#ff0000"
+        android:layout_margin="10dp"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary"/>
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_view"
@@ -24,7 +38,7 @@
 
     <TextView
         android:padding="10dp"
-        android:layout_margin="10dp"
+        android:layout_margin="15dp"
         android:id="@+id/playerDescription"
         android:text="Video description example ... blablablab lablablablab lablablablabla blablablab lablablabla blablabla"
         android:layout_width="match_parent"
@@ -34,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_margin="20dp"
         android:background="#ff0000">
 
         <TextView
@@ -50,7 +65,6 @@
             android:layout_height="wrap_content"
             android:text="@string/channel_example"
             android:padding="5dp"
-            android:textColor="@android:color/holo_red_light"
             android:layout_margin="10dp"/>
 
     </LinearLayout>
