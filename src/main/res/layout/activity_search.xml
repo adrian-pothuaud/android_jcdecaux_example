@@ -21,7 +21,6 @@
                 android:layout_weight="98"
                 android:fontFamily="serif-monospace"
                 android:hint="@string/searchFieldHint"
-                android:textAlignment="textStart"
                 android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Info"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="20sp"

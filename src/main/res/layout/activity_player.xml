@@ -8,7 +8,11 @@
         android:id="@+id/playerTitle"
         android:text="Video Title"
         android:textSize="24dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="#303F9F"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -29,13 +33,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#303F9F">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/channel"
             android:padding="5dp"
+            android:textColor="@android:color/white"
             android:layout_margin="10dp"/>
 
         <TextView
@@ -44,6 +50,7 @@
             android:layout_height="wrap_content"
             android:text="@string/channel_example"
             android:padding="5dp"
+            android:textColor="@android:color/holo_red_light"
             android:layout_margin="10dp"/>
 
     </LinearLayout>
